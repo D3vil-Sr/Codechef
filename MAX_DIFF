@@ -1,5 +1,7 @@
 # Code By D3vil
 
+# PROBLEM CODE :- MAX_DIFF
+
 '''
 Chef prepared two dishes yesterday. Chef had assigned the tastiness T1 and T2 to the first and to the second dish respectively. The tastiness of the dishes can be any integer between 0 and N (both inclusive).
 
