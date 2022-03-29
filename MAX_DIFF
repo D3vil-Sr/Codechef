@@ -49,3 +49,30 @@ for i in range(t):
         print(s)
     else:
         print(2*n-s)
+
+
+# Code in CPP
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,s;
+	    cin>>n>>s;
+	    if(s<=n){
+	        // take {0,s}
+	        cout<<s<<endl;
+	    }
+	    else{
+	        // n = 7, S = 10
+	        // take {s-n,n}
+	        // take {s-n+1, n-1}
+	        cout<<n * 2 - s<<endl;
+	    }
+	}
+	return 0;
+}
